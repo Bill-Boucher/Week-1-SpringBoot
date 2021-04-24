@@ -9,7 +9,7 @@ import com.promineotech.jeep.entity.JeepModel;
 public class DefaultJeepSalesController implements JeepSalesController {
 
   @Override
-  public List<Jeep> fetchJeeps(String model, String trim) {
+  public List<Jeep> fetchJeeps(JeepModel model, String trim) {
     return null;
   }
 
